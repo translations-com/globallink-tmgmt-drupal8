@@ -1,4 +1,0 @@
-services:
-  globallink.gl_exchange_adapter:
-    class: Drupal\globallink\GlExchangeAdapter
-    arguments: ['@entity_type.manager', '@module_handler']
