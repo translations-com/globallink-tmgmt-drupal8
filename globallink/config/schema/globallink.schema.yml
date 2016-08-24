@@ -1,0 +1,26 @@
+tmgmt.translator.settings.globallink:
+  type: tmgmt.translator_base
+  mapping:
+    pd_url:
+      type: string
+      label: GlobalLink api url
+    pd_username:
+      type: string
+      label: GlobalLink username
+    pd_password:
+      type: string
+      label: GlobalLink password
+    pd_projectid:
+      type: string
+      label: The id of the project
+    pd_submissionprefix:
+      type: string
+      label: Submission name Prefix
+    pd_notify_emails:
+      type: string
+      label: Space separated list of emails to notify
+    pd_notify_level:
+      type: sequence
+      sequence:
+        type: string
+        label: Email notification levels
