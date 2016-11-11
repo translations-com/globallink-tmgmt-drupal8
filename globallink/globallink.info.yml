@@ -3,6 +3,6 @@ description: 'GlobalLink service plugin for TMGMT. Sign up at <a href="http://tr
 package: 'Translation Management'
 core: 8.x
 dependencies:
-  - tmgmt
+  - tmgmt (>=8.x-1.0-rc2)
   - tmgmt_file
 type: module
